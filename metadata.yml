@@ -1,6 +1,7 @@
 ---
 name: documented_passthrough
 url: http://httpbin.org
+type: passthrough
 endpoints:
   get:
     summary: GET method
