@@ -17,5 +17,5 @@ endpoints:
       parameters:
         - name: bar
           in: body
-          description: Pet object that needs to be added to the store
+          description: some description
           required: false
