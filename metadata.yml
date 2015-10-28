@@ -3,7 +3,7 @@ name: documented_passthrough
 url: http://httpbin.org
 type: passthrough
 endpoints:
-  /get:
+  /access/get:
     get:
       summary: GET method
       parameters:
@@ -11,7 +11,7 @@ endpoints:
           in: query
           type: string
           required: false
-  /post:
+  /access/post:
     post:
       summary: POST method
       parameters:
