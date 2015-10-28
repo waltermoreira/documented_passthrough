@@ -1,0 +1,18 @@
+---
+name: documented_passthrough
+url: http://httpbin.org
+endpoints:
+  get:
+    summary: GET method
+    parameters:
+      - name: foo
+        in: query
+        type: string
+        required: false
+  post:
+    summary: POST method
+    parameters:
+      - name: bar
+        in: body
+        description: Pet object that needs to be added to the store
+        required: false
